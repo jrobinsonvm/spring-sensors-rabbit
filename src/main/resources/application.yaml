@@ -6,3 +6,8 @@ spring:
 management.endpoints.web.exposure.include: "*"
 
 title: Tanzu Sensor Database
+
+wavefront.application.name: TanzuSensorDatabase
+wavefront.application.service: ServiceA
+management.metrics.export.wavefront.api-token: b84b8d02-ec0a-4823-93d7-e48f43b246c7
+management.metrics.export.wavefront.uri: https://vmware.wavefront.com
